@@ -40,10 +40,13 @@
                         <li class="col-xs-5 col-md-2 col-lg-2">
                             <i class="fa fa-list-alt"></i> <a href="{{ $v->category->url }}" target="_blank">{{ $v->category->name }}</a>
                         </li>
-                        <li class="col-xs-7 col-md-5 col-lg-4 "><i class="fa fa-tags"></i>
+                        <li class="col-xs-7 col-md-3 col-lg-2 "><i class="fa fa-tags"></i>
                             @foreach($v->tags as $n)
                                 <a class="b-tag-name" href="{{ $n->url }}" target="_blank">{{ $n->name }}</a>
                             @endforeach
+                        </li>
+                        <li class="col-xs-7 col-md-2 col-lg-2 "><i class="fa fa-eye"></i>
+                            </i>{{ $v->click }}
                         </li>
                     </ul>
                 </div>
