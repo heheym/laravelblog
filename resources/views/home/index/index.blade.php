@@ -46,7 +46,7 @@
                             @endforeach
                         </li>
                         <li class="col-xs-7 col-md-2 col-lg-2 "><i class="fa fa-eye"></i>
-                            </i>{{ $v->click }}
+                            {{ $v->click }}
                         </li>
                     </ul>
                 </div>
@@ -76,6 +76,7 @@
                     </div>
                 </div>
                 <a class=" b-readall" href="{{ $v->url }}" target="_blank">{{ __('Read More') }}</a>
+                {{--<a class="btn btn-primary btn-sm pull-right" style="margin-right:10px" href="{{ $v->url }}" target="_blank">{{ __('Read More') }}</a>--}}
             </div>
         @endforeach
         <!-- 循环文章列表结束 -->

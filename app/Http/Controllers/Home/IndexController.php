@@ -30,7 +30,7 @@ class IndexController extends Controller
         $article = Article::select(
                 'id', 'category_id', 'title',
                 'slug', 'author', 'description',
-                'cover', 'is_top', 'created_at'
+                'cover', 'is_top', 'created_at','click'
             )
             ->orderBy('created_at', 'desc')
             ->with(['category', 'tags'])
