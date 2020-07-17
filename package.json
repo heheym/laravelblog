@@ -14,7 +14,7 @@
     "cross-env": "^5.1",
     "jssocials": "github:tabalinas/jssocials",
     "laravel-mix": "^1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "vue": "^2.6.7"
   },
   "dependencies": {
